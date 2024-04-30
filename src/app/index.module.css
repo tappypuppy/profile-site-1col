@@ -1,0 +1,161 @@
+.logoIcon {
+    position: absolute;
+    height: 2.59%;
+    width: 9.38%;
+    top: 0.65%;
+    right: 74.13%;
+    bottom: 96.77%;
+    left: 16.5%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.about {
+    position: absolute;
+    top: 1.23%;
+    left: 73.73%;
+    color: var(--color-gray);
+}
+.bicycle {
+    position: absolute;
+    top: 1.23%;
+    left: 79.52%;
+    color: var(--color-gray);
+}
+.about1 {
+    position: absolute;
+    top: 47.87%;
+    left: calc(50% - 53px);
+    font-size: var(--font-size-13xl);
+}
+.icon {
+    position: absolute;
+    height: 0.06%;
+    top: 50.97%;
+    bottom: 48.97%;
+    left: calc(50% - 53px);
+    max-height: 100%;
+    width: 106px;
+}
+.kakeruMiyaichi {
+    position: absolute;
+    top: 55.5%;
+    left: 39.45%;
+    font-size: var(--font-size-base);
+}
+.p {
+    margin: 0;
+}
+.div {
+    position: absolute;
+    top: 57.7%;
+    left: 39.45%;
+}
+.bicycle1 {
+    position: absolute;
+    top: 68.43%;
+    left: calc(50% - 61px);
+    font-size: var(--font-size-13xl);
+}
+.icon1 {
+    position: absolute;
+    height: 0.06%;
+    top: 71.54%;
+    bottom: 28.4%;
+    left: calc(50% - 61px);
+    max-height: 100%;
+    width: 122px;
+}
+.div1 {
+    position: absolute;
+    top: 87.84%;
+    left: 22.22%;
+    font-size: var(--font-size-base);
+}
+.div2 {
+    position: absolute;
+    top: 90.04%;
+    left: 20.5%;
+}
+.div3 {
+    position: absolute;
+    top: 87.84%;
+    left: 45%;
+    font-size: var(--font-size-base);
+}
+.div4 {
+    position: absolute;
+    top: 90.04%;
+    left: 43.28%;
+}
+.div5 {
+    position: absolute;
+    top: 87.84%;
+    left: 67.78%;
+    font-size: var(--font-size-base);
+}
+.div6 {
+    position: absolute;
+    top: 90.04%;
+    left: 66.06%;
+}
+.profile {
+    position: absolute;
+    top: 98.58%;
+    left: calc(50% - 28px);
+    font-size: 8px;
+}
+.maskGroupIcon {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 1280px;
+    /* width:100%; */
+    height: 600px;
+    object-fit: cover;
+}
+.maskGroupIcon1 {
+    position: absolute;
+    top: 858px;
+    left: 375px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.bicycle1Icon {
+    position: absolute;
+    top: 1166px;
+    left: 211.2px;
+    width: 274.4px;
+    height: 182px;
+    object-fit: cover;
+}
+.bicycle2Icon {
+    position: absolute;
+    top: 1166px;
+    left: 502.8px;
+    width: 274.4px;
+    height: 182px;
+    object-fit: cover;
+}
+.bicycle3Icon {
+    position: absolute;
+    top: 1166px;
+    left: 794.4px;
+    width: 274.4px;
+    height: 182px;
+    object-fit: cover;
+}
+.profilePc {
+    width: 100%;
+    position: relative;
+    background-color: #FFF;
+    height: 1546px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-mini-4);
+    color: var(--color-darkslategray);
+    font-family: var(--font-hiragino-kaku-gothic-pron);
+}
+
