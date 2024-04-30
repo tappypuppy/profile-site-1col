@@ -8,9 +8,9 @@ body {
   	--font-hiragino-kaku-gothic-pron: 'Hiragino Kaku Gothic ProN';
   	
   	/* font sizes */
-  	--font-size-mini-4: 14.4px;
-  	--font-size-base: 16px;
-  	--font-size-13xl: 32px;
+  	--font-size-mini-4: 0.9rem;
+  	--font-size-base: 1rem;
+  	--font-size-13xl: 2rem;
   	
   	/* Colors */
   	--color-darkslategray: #383e45;

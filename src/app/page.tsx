@@ -3,22 +3,13 @@ import styles from "./index.module.css";
 // import Head from "next/head";
 import Image from "next/image";
 import Head_tag from "@/components/Head";
+import Header from "@/components/Header/Header";
 
 const ProfilePC: NextPage = () => {
   return (
     <div className={styles.profilePc}>
-      {/* <img className={styles.logoIcon} alt="" src="logo.png" /> */}
-      <Image
-        className={styles.logoIcon}
-        src="/logo.png"
-        alt="logo"
-        width={120}
-        height={40}
-      />
-      <div className={styles.about}>About</div>
-      <div className={styles.bicycle}>Bicycle</div>
-      <div className={styles.about1}>About</div>
-      {/* <img className={styles.icon} alt="" src="線 1.svg" /> */}
+      <Header/>
+      <div className={styles.about1}>About1</div>
       <Image
         className={styles.icon}
         src="/線 1.svg"
@@ -54,20 +45,15 @@ const ProfilePC: NextPage = () => {
       <div className={styles.div5}>タイトルタイトル</div>
       <div className={styles.div6}>テキストテキストテキスト</div>
       <div className={styles.profile}>© 2020 Profile</div>
-      {/* <img className={styles.maskGroupIcon} alt="" src="Mask group2.png" />
-      <img className={styles.maskGroupIcon1} alt="" src="Mask group1.png" />
-      <img className={styles.bicycle1Icon} alt="" src="bicycle1.png" />
-      <img className={styles.bicycle2Icon} alt="" src="bicycle2.png" />
-      <img className={styles.bicycle3Icon} alt="" src="bicycle3.png" /> */}
       <Image
-        className={styles.maskGroupIcon}
+        className={styles.main_visual}
         src="/main_visual.png"
         alt="main_visual"
         width={1280}
         height={600}
       />
       <Image
-        className={styles.maskGroupIcon1}
+        className={styles.about_icon}
         src="/about.png"
         alt="about"
         width={100}

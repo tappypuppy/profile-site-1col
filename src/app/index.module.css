@@ -9,7 +9,6 @@
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-    object-fit: cover;
 }
 .about {
     position: absolute;
@@ -36,7 +35,7 @@
     bottom: 48.97%;
     left: calc(50% - 53px);
     max-height: 100%;
-    width: 106px;
+    width: 6.625rem;
 }
 .kakeruMiyaichi {
     position: absolute;
@@ -65,7 +64,7 @@
     bottom: 28.4%;
     left: calc(50% - 61px);
     max-height: 100%;
-    width: 122px;
+    width: 7.625rem;
 }
 .div1 {
     position: absolute;
@@ -104,54 +103,53 @@
     position: absolute;
     top: 98.58%;
     left: calc(50% - 28px);
-    font-size: 8px;
+    font-size: 0.5rem;
 }
-.maskGroupIcon {
+.main_visual {
     position: absolute;
-    top: 60px;
-    left: 0px;
-    width: 1280px;
-    /* width:100%; */
-    height: 600px;
+    top: 3.75rem;
+    left: 0rem;
+    width: 100rem;
+    height: 37.5rem;
     object-fit: cover;
 }
-.maskGroupIcon1 {
+.about_icon{
     position: absolute;
-    top: 858px;
-    left: 375px;
-    width: 100px;
-    height: 100px;
+    top: 53.625rem;
+    left: 23.438rem;
+    width: 6.25rem;
+    height: 6.25rem;
     object-fit: cover;
 }
 .bicycle1Icon {
     position: absolute;
-    top: 1166px;
-    left: 211.2px;
-    width: 274.4px;
-    height: 182px;
+    top: 72.875rem;
+    left: 13.2rem;
+    width: 17.15rem;
+    height: 11.375rem;
     object-fit: cover;
 }
 .bicycle2Icon {
     position: absolute;
-    top: 1166px;
-    left: 502.8px;
-    width: 274.4px;
-    height: 182px;
+    top: 72.875rem;
+    left: 31.425rem;
+    width: 17.15rem;
+    height: 11.375rem;
     object-fit: cover;
 }
 .bicycle3Icon {
     position: absolute;
-    top: 1166px;
-    left: 794.4px;
-    width: 274.4px;
-    height: 182px;
+    top: 72.875rem;
+    left: 49.65rem;
+    width: 17.15rem;
+    height: 11.375rem;
     object-fit: cover;
 }
 .profilePc {
     width: 100%;
     position: relative;
-    background-color: #FFF;
-    height: 1546px;
+    background-color: #fff;
+    height: 96.625rem;
     overflow: hidden;
     text-align: left;
     font-size: var(--font-size-mini-4);

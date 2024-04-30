@@ -1,0 +1,25 @@
+.logoIcon {
+    position: absolute;
+    height: auto;
+    width: 9%;
+    top: 0.65%;
+    right: 74.13%;
+    bottom: 96.77%;
+    left: 16.5%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    
+}
+.about {
+    position: absolute;
+    top: 1.23%;
+    left: 73.73%;
+    color: var(--color-gray);
+}
+.bicycle {
+    position: absolute;
+    top: 1.23%;
+    left: 79.52%;
+    color: var(--color-gray);
+}
