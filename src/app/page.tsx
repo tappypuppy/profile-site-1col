@@ -4,33 +4,14 @@ import styles from "./index.module.css";
 import Image from "next/image";
 import Head_tag from "@/components/Head";
 import Header from "@/components/Header/Header";
+import About from "@/components/About/About";
 
 const ProfilePC: NextPage = () => {
   return (
     <div className={styles.profilePc}>
       <Header/>
-      <div className={styles.about1}>About1</div>
-      <Image
-        className={styles.icon}
-        src="/線 1.svg"
-        alt="icon"
-        width={106}
-        height={0}
-      />
-      <div className={styles.kakeruMiyaichi}>KAKERU MIYAICHI</div>
-      <div className={styles.div}>
-        <p className={styles.p}>
-          テキストテキストテキストテキストテキストテキストテキスト
-        </p>
-        <p className={styles.p}>
-          テキストテキストテキストテキストテキストテキストテキスト
-        </p>
-        <p className={styles.p}>
-          テキストテキストテキストテキストテキストテキストテキスト
-        </p>
-      </div>
+      <About/>
       <div className={styles.bicycle1}>Bicycle</div>
-      {/* <img className={styles.icon1} alt="" src="線 2.svg" /> */}
       <Image
         className={styles.icon1}
         src="/線 2.svg"
