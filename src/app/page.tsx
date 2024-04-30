@@ -5,62 +5,18 @@ import Image from "next/image";
 import Head_tag from "@/components/Head";
 import Header from "@/components/Header/Header";
 import About from "@/components/About/About";
+import Hero from "@/components/Hero/Hero";
+import Bicycle from "@/components/Bicycle/Bicycle";
+import Footer from "@/components/Footer/footer";
 
 const ProfilePC: NextPage = () => {
   return (
     <div className={styles.profilePc}>
       <Header/>
+      <Hero/>
       <About/>
-      <div className={styles.bicycle1}>Bicycle</div>
-      <Image
-        className={styles.icon1}
-        src="/線 2.svg"
-        alt="icon"
-        width={122}
-        height={0}
-      />
-      <div className={styles.div1}>タイトルタイトル</div>
-      <div className={styles.div2}>テキストテキストテキスト</div>
-      <div className={styles.div3}>タイトルタイトル</div>
-      <div className={styles.div4}>テキストテキストテキスト</div>
-      <div className={styles.div5}>タイトルタイトル</div>
-      <div className={styles.div6}>テキストテキストテキスト</div>
-      <div className={styles.profile}>© 2020 Profile</div>
-      <Image
-        className={styles.main_visual}
-        src="/main_visual.png"
-        alt="main_visual"
-        width={1280}
-        height={600}
-      />
-      <Image
-        className={styles.about_icon}
-        src="/about.png"
-        alt="about"
-        width={100}
-        height={100}
-      />
-      <Image
-        className={styles.bicycle1Icon}
-        src="/bicycle1.png"
-        alt="bike1"
-        width={274.4}
-        height={182}
-      />
-      <Image
-        className={styles.bicycle2Icon}
-        src="/bicycle2.png"
-        alt="bike2"
-        width={274.4}
-        height={182}
-      />
-      <Image
-        className={styles.bicycle3Icon}
-        src="/bicycle3.png"
-        alt="bike3"
-        width={274.4}
-        height={182}
-      />
+      <Bicycle/>
+      <Footer/>
     </div>
   );
 };

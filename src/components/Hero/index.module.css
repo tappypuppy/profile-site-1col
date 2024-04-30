@@ -1,0 +1,8 @@
+.main_visual {
+    position: absolute;
+    top: 3.75rem;
+    left: 0rem;
+    width: 100rem;
+    height: 37.5rem;
+    object-fit: cover;
+}
