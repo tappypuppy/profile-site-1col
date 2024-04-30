@@ -1,36 +1,36 @@
 .about {
     position: absolute;
     top: 47.87%;
-    left: calc(50% - 53px);
+    left: 50%;
     font-size: var(--font-size-13xl);
 }
-.icon {
+.border {
     position: absolute;
     height: 0.06%;
     top: 50.97%;
     bottom: 48.97%;
-    left: calc(50% - 53px);
+    left: 50%;
     max-height: 100%;
     width: 6.625rem;
 }
-.kakeruMiyaichi {
+.username {
     position: absolute;
     top: 55.5%;
-    left: 39.45%;
+    left: 45%;
     font-size: var(--font-size-base);
 }
-.p {
+.text {
     margin: 0;
 }
-.div {
+.text_box {
     position: absolute;
     top: 57.7%;
-    left: 39.45%;
+    left: 45%;
 }
 .about_icon{
     position: absolute;
-    top: 53.625rem;
-    left: 23.438rem;
+    top: 55.5%;
+    left: 34%;
     width: 6.25rem;
     height: 6.25rem;
     object-fit: cover;

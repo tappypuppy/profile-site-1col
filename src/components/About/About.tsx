@@ -12,21 +12,21 @@ function About() {
       />
       <div className={styles.about}>About</div>
       <Image
-        className={styles.icon}
+        className={styles.border}
         src="/線 1.svg"
         alt="icon"
         width={106}
         height={0}
       />
-      <div className={styles.kakeruMiyaichi}>KAKERU MIYAICHI</div>
-      <div className={styles.div}>
-        <p className={styles.p}>
+      <div className={styles.username}>KAKERU MIYAICHI</div>
+      <div className={styles.text_box}>
+        <p className={styles.text}>
           テキストテキストテキストテキストテキストテキストテキスト
         </p>
-        <p className={styles.p}>
+        <p className={styles.text}>
           テキストテキストテキストテキストテキストテキストテキスト
         </p>
-        <p className={styles.p}>
+        <p className={styles.text}>
           テキストテキストテキストテキストテキストテキストテキスト
         </p>
       </div>
