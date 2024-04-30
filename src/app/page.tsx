@@ -7,14 +7,13 @@ import Header from "@/components/Header/Header";
 import About from "@/components/About/About";
 import Hero from "@/components/Hero/Hero";
 import Bicycle from "@/components/Bicycle/Bicycle";
-import Footer from "@/components/Footer/footer";
+import Footer from "@/components/Footer/Footer";
 import type { Viewport } from 'next'
  
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
+  // maximumScale: 1,
   // Also supported by less commonly used
   // interactiveWidget: 'resizes-visual',
 }
