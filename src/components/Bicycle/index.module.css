@@ -1,74 +1,44 @@
-
-.bicycle1 {
-    position: absolute;
-    top: 68.43%;
-    left: calc(50% - 61px);
-    font-size: var(--font-size-13xl);
+.bicycle {
+  position: absolute;
+  top: 68.43%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: var(--font-size-13xl);
 }
-.icon1 {
-    position: absolute;
-    height: 0.06%;
-    top: 71.54%;
-    bottom: 28.4%;
-    left: calc(50% - 61px);
-    max-height: 100%;
-    width: 7.625rem;
-}
-.div1 {
-    position: absolute;
-    top: 87.84%;
-    left: 22.22%;
-    font-size: var(--font-size-base);
-}
-.div2 {
-    position: absolute;
-    top: 90.04%;
-    left: 20.5%;
-}
-.div3 {
-    position: absolute;
-    top: 87.84%;
-    left: 45%;
-    font-size: var(--font-size-base);
-}
-.div4 {
-    position: absolute;
-    top: 90.04%;
-    left: 43.28%;
-}
-.div5 {
-    position: absolute;
-    top: 87.84%;
-    left: 67.78%;
-    font-size: var(--font-size-base);
-}
-.div6 {
-    position: absolute;
-    top: 90.04%;
-    left: 66.06%;
+.border {
+  position: absolute;
+  height: 0.06%;
+  top: 71.54%;
+  bottom: 28.4%;
+  left: 50%;
+  transform: translateX(-50%);
+  max-height: 100%;
+  width: 7.625rem;
 }
 
-.bicycle1Icon {
-    position: absolute;
-    top: 72.875rem;
-    left: 13.2rem;
-    width: 17.15rem;
-    height: 11.375rem;
-    object-fit: cover;
+.bike_items {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  height: 16.04%;
+  width: 67%;
+  top: 75.42%;
+  right: 16.5%;
+  bottom: 8.54%;
+  left: 16.5%;
+  font-size: var(--font-size-base);
 }
-.bicycle2Icon {
-    position: absolute;
-    top: 72.875rem;
-    left: 31.425rem;
-    width: 17.15rem;
-    height: 11.375rem;
-    object-fit: cover;
+
+.bike1_text {
+  font-size: var(--font-size-mini-4);
 }
-.bicycle3Icon {
-    position: absolute;
-    top: 72.875rem;
-    left: 49.65rem;
-    width: 17.15rem;
-    height: 11.375rem;
-    object-fit: cover;
+.bike1_icon {
+  object-fit: cover;
+}
+.bike_item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--font-size-base);
 }

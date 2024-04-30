@@ -13,7 +13,7 @@ function About() {
       <div className={styles.about}>About</div>
       <Image
         className={styles.border}
-        src="/線 1.svg"
+        src="/border_1.svg"
         alt="icon"
         width={106}
         height={0}
