@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Link as Scroll } from "react-scroll";
 import styles from "./index.module.css";
+import Link from "next/link";
 
 function Header() {
   return (
@@ -18,11 +19,11 @@ function Header() {
         height={40}
       />
       <div className={styles.about}>
-        {/* <Scroll to="about" smooth={true} duration={100}> */}
-          About
-        {/* </Scroll> */}
+        <Link href="/#about">About</Link>
       </div>
-      <div className={styles.bicycle}>Bicycle</div>
+      <div className={styles.bicycle}>
+        <Link href="/#bicycle">Bicycle</Link>
+      </div>
     </div>
   );
 }

@@ -3,7 +3,9 @@ import styles from "./index.module.css";
 function Bicycle() {
   return (
     <div>
-        <div className={styles.bicycle}>Bicycle</div>
+      <div className={styles.bicycle}>
+        <div id="bicycle">Bicycle</div>
+      </div>
       <Image
         className={styles.border}
         src="/border_2.svg"

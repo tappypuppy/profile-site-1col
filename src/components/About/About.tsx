@@ -10,7 +10,9 @@ function About() {
         width={100}
         height={100}
       />
-      <div className={styles.about}>About</div>
+      <div className={styles.about}>
+        <div id="about">About</div>
+      </div>
       <Image
         className={styles.border}
         src="/border_1.svg"
