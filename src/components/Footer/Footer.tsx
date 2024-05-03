@@ -1,9 +1,9 @@
 import styles from './index.module.css';
 function Footer() {
     return (
-        <div>
-            <div className={styles.profile}>© 2020 Profile</div> 
-        </div>
+        <footer className={styles.footer_box}>
+            <div className={styles.text}>© 2020 Profile</div> 
+        </footer>
     );
 }
 

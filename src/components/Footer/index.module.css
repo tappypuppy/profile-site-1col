@@ -1,7 +1,16 @@
-.profile {
+/* .profile {
     position: absolute;
     top: 98.58%;
     left: calc(50% - 28px);
     font-size: 0.5rem;
 }
+ */
 
+ .footer_box {
+    width: 100%;
+    padding:10px 0;
+ }
+
+ .text {
+    font-size: 0.5rem;
+ }
