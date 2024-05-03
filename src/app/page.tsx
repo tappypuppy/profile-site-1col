@@ -25,7 +25,7 @@ const ProfilePC: NextPage = () => {
       <main>
         <Hero />
         <About />
-        <Bicycle />
+        {/* <Bicycle /> */}
       </main>
       <Footer />
     </div>
