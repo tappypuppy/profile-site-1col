@@ -1,44 +1,40 @@
-.bicycle {
-  position: absolute;
-  top: 68.43%;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: var(--font-size-13xl);
-}
-.border {
-  position: absolute;
-  height: 0.06%;
-  top: 71.54%;
-  bottom: 28.4%;
-  left: 50%;
-  transform: translateX(-50%);
-  max-height: 100%;
-  width: 7.625rem;
+.bicycle_box {
+  padding: 0 4%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
 }
 
 .bike_items {
   display: flex;
-  justify-content: space-between;
-  position: absolute;
-  height: 16.04%;
-  width: 67%;
-  top: 75.42%;
-  right: 16.5%;
-  bottom: 8.54%;
-  left: 16.5%;
-  font-size: var(--font-size-base);
+  justify-content: center;
+  column-gap: 5px;
+  flex-wrap: wrap;
+
 }
 
-.bike1_text {
-  font-size: var(--font-size-mini-4);
-}
-.bike1_icon {
-  object-fit: cover;
-}
-.bike_item1 {
+.bike_item {
+  padding: 15px 8px;
   display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  font-size: var(--font-size-base);
+  row-gap: 10px;
+}
+
+.bicycle {
+  font-size: 32px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1px;
+}
+
+.bicycle h3 {
+  margin: 0;
+}
+
+.bike_title {
+  margin:0;
 }
