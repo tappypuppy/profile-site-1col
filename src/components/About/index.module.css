@@ -43,7 +43,7 @@
   margin: 0;
 }
 
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 600px) {
     .about_box {
       display: flex;
       flex-direction: column;

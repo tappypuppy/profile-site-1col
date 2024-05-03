@@ -27,7 +27,7 @@
   color: var(--color-gray);
 }
 
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 600px) {
   .nav {
     display: flex;
     justify-content: space-between;
