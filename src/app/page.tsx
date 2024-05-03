@@ -13,9 +13,6 @@ import type { Viewport } from "next";
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  // maximumScale: 1,
-  // Also supported by less commonly used
-  // interactiveWidget: 'resizes-visual',
 };
 
 const ProfilePC: NextPage = () => {
@@ -25,7 +22,7 @@ const ProfilePC: NextPage = () => {
       <main>
         <Hero />
         <About />
-        {/* <Bicycle /> */}
+        <Bicycle />
       </main>
       <Footer />
     </div>
