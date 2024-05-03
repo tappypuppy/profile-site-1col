@@ -19,7 +19,7 @@ const ProfilePC: NextPage = () => {
   return (
     <div className={styles.profilePc}>
       <Header />
-      <main>
+      <main className={styles.main}>
         <Hero />
         <About />
         <Bicycle />
