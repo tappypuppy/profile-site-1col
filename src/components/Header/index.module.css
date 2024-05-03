@@ -1,54 +1,53 @@
-.logoIcon {
-  position: absolute;
-  height: 2.5rem;
-  width: 32%;
-  top: 0.42%;
-  right: 64%;
-  bottom: 97.92%;
-  left: 4%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: contain;
+.header_box {
+  width: 100%;
+  padding: 30px 4% 10px;
+  background-color: #fff;
+  box-sizing: border-box;
 }
 
-.about {
-  position: absolute;
-  top: 0.79%;
-  left: 62.67%;
-  color: var(--color-gray);
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.bicycle {
-  position: absolute;
-  top: 0.79%;
-  left: 82.4%;
+.nav ul {
+  /* 謎の40pxを消すために必要 */
+  padding-inline-start: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.nav li {
+  list-style-type: none;
+}
+
+.anchor {
+  text-decoration: none;
   color: var(--color-gray);
 }
 
 @media screen and (min-width: 428px) {
-  .logoIcon {
-    position: absolute;
-    height: auto;
-    width: 9%;
-    top: 0.65%;
-    right: 74.13%;
-    bottom: 96.77%;
-    left: 16.5%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: contain;
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-  .about {
-    position: absolute;
-    top: 1.23%;
-    left: 73.73%;
-    color: var(--color-gray);
+  .nav ul {
+    /* 謎の40pxを消すために必要 */
+    padding-inline-start: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
   }
-  .bicycle {
-    position: absolute;
-    top: 1.23%;
-    left: 79.52%;
+
+  .nav li {
+    list-style-type: none;
+  }
+
+  .anchor {
+    text-decoration: none;
     color: var(--color-gray);
   }
 }
+

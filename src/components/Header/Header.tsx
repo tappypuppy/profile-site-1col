@@ -1,30 +1,35 @@
 import Image from "next/image";
-import { Link as Scroll } from "react-scroll";
 import styles from "./index.module.css";
 import Link from "next/link";
 
 function Header() {
   return (
-    <div className={styles.header_box}>
-      <Image
-        className={styles.logoIcon}
-        src="/logo.png"
-        alt="logo"
-        // sizes="100vw"
-        // style={{
-        //   width: "20%",
-        //   height: "auto",
-        // }}
-        width={120}
-        height={40}
-      />
-      <div className={styles.about}>
-        <Link href="/#about">About</Link>
+    <header>
+      <div className={styles.header_box}>
+        <nav className={styles.nav}>
+          <Image
+            className={styles.logoIcon}
+            src="/logo.png"
+            alt="logo"
+            width={120}
+            height={40}
+          />
+
+          <ul>
+            <li>
+              <Link href="/#about" className={styles.anchor}>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link href="/#bicycle" className={styles.anchor}>
+                Bicycle
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <div className={styles.bicycle}>
-        <Link href="/#bicycle">Bicycle</Link>
-      </div>
-    </div>
+    </header>
   );
 }
 
